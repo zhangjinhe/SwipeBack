@@ -74,9 +74,4 @@ public class SwipeBackActivity extends AppCompatActivity {
         super.onCreate(bundle);
         mHelper = new SwipeBackHelper(this);
     }
-
-    public void back() {
-        onBackPressed();
-    }
-
 }

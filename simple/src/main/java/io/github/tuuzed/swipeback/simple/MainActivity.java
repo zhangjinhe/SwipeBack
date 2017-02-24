@@ -34,6 +34,12 @@ public class MainActivity extends SwipeBackActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.btn_finish).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                scrollToFinishActivity();
+            }
+        });
     }
 
 }
